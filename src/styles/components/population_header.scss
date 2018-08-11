@@ -1,0 +1,37 @@
+.map_header {
+   display: flex;
+    height: 45px;
+    width: 100%;
+    background-color:  #f4723d;
+    color:white;
+}
+
+.title_container {
+    margin:0 ;
+    left: 10px;
+    transform: none;
+    top: auto;
+}
+
+.map_header_title {
+    margin:1px 0px; 
+ }
+
+ .header_title_2{
+     width: 150px;
+     border-top : solid 2px #fafafa;
+ }
+
+ .header_partition {
+     flex-grow:1;
+     display: flex;
+    align-items: center;
+    justify-content: center 
+ }
+
+ .map_header h3{
+    margin:0;
+    color:white;
+    
+ }
+ 

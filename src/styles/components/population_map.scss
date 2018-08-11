@@ -1,0 +1,81 @@
+.slider {
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    width: 500px;
+    left : 50%;
+    margin-left: -250px;
+    background-color: white;
+    height: 58px;
+    padding: 2px 15px;
+    // border: solid 1px rgba(93.3%, 93.3%, 93.3%, 1);
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.75);
+}
+
+.rangeslider__labels {
+    margin : 3px 0px;
+    color :black;
+}
+
+.rangeslider {
+    margin-top:15px;
+}
+
+
+
+.rangeslider-horizontal .rangeslider__handle {
+    height:20px;
+    width:10px;
+    border-radius: 0px;
+}
+
+.rangeslider-horizontal .rangeslider__handle::after {
+    display: none
+}
+
+.chart_container {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: solid 1px rgba(93.3%, 93.3%, 93.3%, 1);
+    border-radius: .8%;
+    padding: 10px;
+    box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.75);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.chart__container {
+    position: absolute;
+    z-index: 3;
+    top: 120px;
+    left: 8px;
+}
+
+.legend {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    width: 80px;
+    align-content: stretch;
+    
+    
+}
+.legend p{
+    margin : 1px;
+    font-size : 14px;
+    display : flex;
+}
+
+.legend_text {
+    flex-grow: 3;
+} 
+// .recharts-layer .recharts-label{
+//     width: 250px;
+// }
+
+
+ 
