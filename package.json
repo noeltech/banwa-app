@@ -51,6 +51,6 @@
     "chalk": "^2.4.1",
     "webpack-cli": "^3.1.0",
     "live-server": "^1.2.0",
-    "webpack-dev-server": "2.5.1"
+   
   }
 }
