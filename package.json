@@ -5,12 +5,11 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "start" : "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod" 
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
     "@material-ui/core": "^1.4.3",
@@ -25,7 +24,6 @@
     "echarts": "^4.1.0",
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^3.0.2",
-    "live-server": "^1.2.0",
     "lucid-ui": "^2.36.0",
     "mapbox-gl": "^0.47.0",
     "moment": "2.18.1",
@@ -47,10 +45,12 @@
     "uuid": "3.1.0",
     "validator": "8.0.0",
     "victory": "^0.27.2",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "3.1.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.1.0"
+    "chalk": "^2.4.1",
+    "webpack-cli": "^3.1.0",
+    "live-server": "^1.2.0",
+    "webpack-dev-server": "2.5.1"
   }
 }
